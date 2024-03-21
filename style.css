@@ -1,0 +1,465 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(0.25turn, #40aa61, #0e781a);
+}
+@font-face {
+  font-family: Rubic;
+  src: url(./assets/fonts/Rubik-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Rubic;
+  src: url(./assets/fonts/Rubik-Regular.ttf);
+}
+.container {
+  height: auto;
+  width: auto;
+  margin: auto;
+  /* background: linear-gradient(#ff9292, #dd1414); */
+}
+h4 {
+  color: #fff;
+  font-family: Rubik, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+h1 {
+  color: #fff;
+
+  font-family: Rubik;
+  font-size: 99.17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+p {
+  color: #fff;
+
+  font-family: Rubik;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+h2 {
+  color: #180202;
+
+  text-align: center;
+
+  font-family: Rubik;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+h3 {
+  color: #000000;
+  text-align: left;
+  font-family: Rubik;
+  font-style: normal;
+  line-height: 130%;
+  font-size: 24px;
+}
+.oldPrice {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 34px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 130%;
+}
+/* ------------------------------------Section_1----------------------------------- */
+.section_1 {
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1146px;
+  height: 66px;
+  margin: 10px;
+}
+.centrtralNav {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(249, 249, 249);
+  background: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+}
+/* ------------------------------------Hero_Area----------------------------------- */
+.heroContent {
+  width: 1182px;
+  height: 583px;
+  display: flex;
+  margin: 53px 271px 103px 166px;
+}
+.heroPic {
+  width: 570px;
+  height: 583px;
+}
+.heroText {
+  margin-top: 43px;
+  margin-left: 95px;
+  width: 517px;
+  height: 514px;
+}
+.price {
+  margin-top: 50px;
+}
+.oldPrice {
+  opacity: 0.7;
+}
+button {
+  color: #ff4948;
+  padding: 15px 30px;
+  font-family: Rubik;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  border: none;
+}
+.button {
+  margin-top: 35px;
+  width: 191px;
+  height: 61px;
+  border-radius: 62px;
+  background-color: #fff;
+  cursor: pointer;
+}
+/* ------------------------------------Section_2----------------------------------- */
+/* ------------------------------------Clour----------------------------------- */
+.section_2 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clourBox {
+  height: 594px;
+  width: 1142px;
+
+  margin: 130px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+.sliderLine {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.slick-slide {
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+  padding: 40px 0;
+  width: 350px;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.slick-center {
+  transform: scale(1.2);
+}
+.featureBox {
+  height: 594px;
+  width: 1142px;
+
+  margin: 130px auto;
+}
+.productBox {
+  height: 594px;
+  width: 1142px;
+
+  margin: 130px auto;
+}
+
+.main_ctaBox {
+  height: 292px;
+  width: 712px;
+
+  margin: 130px auto;
+  background-color: #90daa7;
+  border-radius: 15px;
+}
+.subHead {
+  width: 508px;
+  height: 101px;
+}
+/* ------------------------------------Feature----------------------------------- */
+.featureBox {
+  display: flex;
+}
+.featureInfo {
+  width: 460px;
+}
+.featureDesc {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.icons {
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(230, 49, 49);
+  margin: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0 0 40px #ff4948; */
+}
+/* svg {
+  display: inline-block;
+} */
+.iconText {
+  color: #180202;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.featureIconDesc {
+  display: flex;
+}
+.desc {
+  padding: 30px;
+}
+.featurePic {
+  margin: auto;
+  margin-top: 70px;
+}
+
+.waveGarlicUp {
+  position: absolute;
+  transform: rotate(69deg);
+}
+/* ------------------------------------Product----------------------------------- */
+.productBox {
+  text-align: center;
+}
+.productList {
+  display: flex;
+  justify-content: space-around;
+}
+.productItem h4 {
+  color: #000000;
+  width: 333px;
+}
+/* ------------------------------------main_cta----------------------------------- */
+.main_cta h4 {
+  color: #000000;
+  text-align: center;
+}
+.main_ctaBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* ------------------------------------Footer----------------------------------- */
+.footer {
+  background: linear-gradient(0.25turn, #40aa61, #0e781a);
+  height: 189px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ------------------------------------ModalWindow----------------------------------- */
+.modal_div {
+  width: 400px;
+  height: 400px; /* Рaзмеры дoлжны быть фиксирoвaны */
+  border-radius: 5px;
+  border: 3px #000 solid;
+  background: #fff;
+  position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+  top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+  left: 50%; /* пoлoвинa экрaнa слевa */
+  margin-top: -150px;
+  margin-left: -150px; /* oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo */
+  display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+  opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+  z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+  padding: 20px 20px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+.modal_close {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: block;
+}
+/* Пoдлoжкa */
+#overlay {
+  z-index: 3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+  position: fixed; /* всегдa перекрывaет весь сaйт */
+  background-color: #000; /* чернaя */
+  opacity: 0.8; /* нo немнoгo прoзрaчнa */
+  -moz-opacity: 0.8; /* фикс прозрачности для старых браузеров */
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%; /* рaзмерoм вo весь экрaн */
+  top: 0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+  left: 0;
+  cursor: pointer;
+  display: none; /* в oбычнoм сoстoянии её нет) */
+}
+a {
+  text-decoration: none;
+  color: #ff4948;
+}
+
+/* ------------------------------------adaptive----------------------------------- */
+@media (width < 958px) {
+  .navigation {
+    width: 400px;
+    margin-right: 0;
+  }
+  .centrtralNav {
+    width: 200px;
+  }
+  .heroArea {
+    width: 400px;
+  }
+  .clourBox {
+    height: auto;
+  }
+  .heroContent {
+    width: 400px;
+    height: 583px;
+    display: flex;
+    margin: 0;
+  }
+  .subHead {
+    width: 400px;
+  }
+  .slider {
+    margin: auto;
+    margin-top: 60px;
+  }
+  .heroPic img {
+    width: 390px;
+
+    margin-top: 300px;
+    overflow: hidden;
+  }
+  .heroPic {
+    width: 390px;
+  }
+  .heroText {
+    width: auto;
+    height: 514px;
+    margin-left: 0;
+    position: absolute;
+    left: 30px;
+  }
+  .price {
+    margin-top: 20px;
+  }
+  .button {
+    margin-top: 15px;
+  }
+  .clourBox {
+    width: 400px;
+    margin-bottom: 0px;
+  }
+  .featureBox {
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+
+    margin-bottom: 0;
+    height: auto;
+  }
+  .featureInfo {
+    width: 400px;
+  }
+  .feature {
+    height: auto;
+  }
+  .featurePic {
+    margin: 0;
+    width: 400px;
+    overflow: hidden;
+  }
+  .featureDesc {
+    margin: 0;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productBox {
+    width: 400px;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .productList {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .main_ctaBox {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .slick-arrow {
+    visibility: hidden;
+    position: absolute;
+    left: 100px;
+  }
+  .garlic {
+    width: 400px;
+  }
+  .modal_div {
+    width: 300px;
+    height: 300px;
+  }
+}
